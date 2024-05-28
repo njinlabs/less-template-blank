@@ -1,0 +1,41 @@
+{
+  "name": "@less/blank",
+  "version": "1.0.0",
+  "description": "Blank Template for Less Framework Application",
+  "main": "./dist/start.js",
+  "scripts": {
+    "build": "less build",
+    "start": "node ./dist/start.js",
+    "dev": "less dev"
+  },
+  "author": "njinlabs <labs@njintech.com>",
+  "license": "MIT",
+  "keywords": [
+    "Framework",
+    "Rest API",
+    "Backend",
+    "Server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njinlabs/less-template-blank.git"
+  },
+  "homepage": "https://github.com/njinlabs/less-template-blank",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "pino-pretty": "^11.1.0",
+    "prisma": "^5.14.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.1.0"
+  }
+}
